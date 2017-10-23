@@ -1,0 +1,39 @@
+.c-bluetooth__pair-button {
+  background-color: #f3f8f0;
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 1.7em;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 9px 0 #a6aaa4, 0 9px 25px rgba(0,0,0,.7);
+  margin: 50px 15px;
+  height:100px;
+  transition: all .1s ease;
+}
+
+.c-bluetooth__pair-button:hover {
+  background-color: #e9eee6;
+}
+
+.c-bluetooth__pair-button:active {
+  box-shadow: 0 3px 0 #A6AAA4, 0 3px 6px rgba(0,0,0,.9);
+  top: 6px;
+}
+
+.c-bluetooth__pair-button img {
+  height:100%;
+}
+
+.c-bluetooth__device-data {
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.c-bluetooth__error {
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: red;
+}
